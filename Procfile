@@ -1,1 +1,2 @@
-web: cd frontend && npm install && npm run build && cd ../python_code/api && uvicorn server:app --host 0.0.0.0 --port 8081
+web: cd frontend && npm install && npm run build && cd ../python_code/api && uvicorn server:app --host 0.0.0.0 --port $PORT
+
